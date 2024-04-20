@@ -1,0 +1,33 @@
+﻿<Window x:Class="Semana06.RegistrarCliente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Semana06"
+        mc:Ignorable="d"
+        Title="RegistrarCliente" Height="450" Width="800">
+    <Grid RenderTransformOrigin="0.501,0.5" Margin="0,1,0,-1">
+        <Label Content="Nombre de Compañia :" HorizontalAlignment="Left" Height="26" Margin="39,15,0,0" VerticalAlignment="Top" Width="142"/>
+        <Label Content="Nombre de Contacto:" HorizontalAlignment="Left" Height="25" Margin="39,52,0,0" VerticalAlignment="Top" Width="142"/>
+        <Label Content="Cargo del Contacto:" HorizontalAlignment="Left" Height="25" Margin="39,92,0,0" VerticalAlignment="Top" Width="142"/>
+        <Label Content="Dirección:" HorizontalAlignment="Left" Height="28" Margin="39,129,0,0" VerticalAlignment="Top" Width="142"/>
+        <Label Content="Ciudad:" HorizontalAlignment="Left" Height="29" Margin="39,168,0,0" VerticalAlignment="Top" Width="142"/>
+        <Label Content="Región:" HorizontalAlignment="Left" Height="26" Margin="39,0,0,0" VerticalAlignment="Center" Width="142"/>
+        <Label Content="Código Postal:" HorizontalAlignment="Left" Height="26" Margin="39,242,0,0" VerticalAlignment="Top" Width="142"/>
+        <Label Content="País:" HorizontalAlignment="Left" Height="28" Margin="39,279,0,0" VerticalAlignment="Top" Width="142"/>
+        <Label Content="Teléfono:" HorizontalAlignment="Left" Height="30" Margin="39,314,0,0" VerticalAlignment="Top" Width="142"/>
+        <Label Content="Fax:" HorizontalAlignment="Left" Height="28" Margin="39,352,0,0" VerticalAlignment="Top" Width="142"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="25" Margin="221,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="25" Margin="221,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256"/>
+        <Button Content="REGISTRAR" HorizontalAlignment="Left" Height="29" Margin="296,395,0,0" VerticalAlignment="Top" Width="222" Click="Button_Click"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="25" Margin="221,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="25" Margin="221,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256"/>
+        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Height="25" Margin="221,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256"/>
+        <TextBox x:Name="textBox7" HorizontalAlignment="Left" Height="25" Margin="221,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="textBox6" HorizontalAlignment="Left" Height="25" Margin="221,207,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256"/>
+        <TextBox x:Name="textBox8" HorizontalAlignment="Left" Height="25" Margin="221,280,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256"/>
+        <TextBox x:Name="textBox9" HorizontalAlignment="Left" Height="25" Margin="221,316,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256"/>
+        <TextBox x:Name="textBox10" HorizontalAlignment="Left" Height="25" Margin="221,353,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256"/>
+
+    </Grid>
+</Window>

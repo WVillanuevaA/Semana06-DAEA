@@ -1,0 +1,15 @@
+﻿<Window x:Class="Semana06.EliminarCliente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Semana06"
+        mc:Ignorable="d"
+        Title="EliminarCliente" Height="361" Width="533">
+    <Grid Margin="0,0,0,-6">
+        <Label x:Name="MensajeLabel" Content="ID del Cliente a Eliminar" HorizontalAlignment="Right" Height="27" Margin="0,158,293,0" VerticalAlignment="Top" Width="143"/>
+        <TextBox x:Name="IdCliente" HorizontalAlignment="Left" Height="27" Margin="256,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+        <Button Content="ELIMINAR" HorizontalAlignment="Left" Height="35" Margin="168,245,0,0" VerticalAlignment="Top" Width="186" ButtonBase.Click="Button_Click"/>
+
+    </Grid>
+</Window>
